@@ -1,7 +1,7 @@
 import json
 import requests
 
-host = "https://test-payment.gloprocessor.com"
+host = "https://test-payment.glocashier.com"
 
 
 def get_billNo():
@@ -31,7 +31,7 @@ def do_pay():
                 "price": "2.09",
                 "num": 1,
                 "description": "2 des attention please, this is test order",
-                "img": "https://payment.gloprocessor.com/payment/img/productDefaultImg.png"
+                "img": "https://payment.glocashier.com/payment/img/productDefaultImg.png"
             }
         ],
         "street": "Room 309 , lei muk shue estate , kwai fong , hk",

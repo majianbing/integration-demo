@@ -22,7 +22,7 @@ import java.util.Random;
  * @Version 1.0
  */
 public class PaymentProcessorTest {
-    private static final String HOST = "https://test-payment.gloprocessor.com";
+    private static final String HOST = "https://test-payment.glocashier.com";
 
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
         pproPay();
@@ -60,7 +60,7 @@ public class PaymentProcessorTest {
         goodsNode.put("price", "2.09");
         goodsNode.put("num", 1);
         goodsNode.put("description", "2 des attention please, this is test order");
-        goodsNode.put("img", "https://payment.gloprocessor.com/payment/img/productDefaultImg.png");
+        goodsNode.put("img", "https://payment.glocashier.com/payment/img/productDefaultImg.png");
         bodyData.set("goods", objectMapper.createArrayNode().add(goodsNode));
 
         bodyData.put("street", "Room 309 , lei muk shue estate , kwai fong , hk");
